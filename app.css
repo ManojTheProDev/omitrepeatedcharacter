@@ -1,0 +1,11 @@
+.contain-omit {
+	height: 90vh;
+	padding-top: 200px;
+	line-height: 30px;
+}
+
+#stringBox, .submit {
+	height: 30px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<TITLE>Remove words which occured more than twice in string</TITLE>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./app.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./app.js"></script>
+	</head>
+	<body>
+		<section class="container-fluid contain-omit">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 text-right">
+					Please provide valid string.
+				</div>
+				<div class="col-xs-6 col-sm-6">
+					<input type="text" id="stringBox" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 text-center">
+					<button class="btn btn-primary submit" onClick = "omitExtras()">Submit</button>
+				</div>
+				<div class="col-sm-6 col-xs-6 text-right">Output is:</div>
+				<div class="col-sm-6 col-xs-6 text-left" id="output"></div>
+			</div>
+		</section>
+	</body>
+</html>
